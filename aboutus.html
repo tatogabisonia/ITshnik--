@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ჩვენ შესახებ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #1f1f1f, #444);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 900px;
+      text-align: center;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      color: white;
+      text-decoration: none;
+      border: 2px solid white;
+      border-radius: 50px;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: white;
+      color: #004e92;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>ჩვენ შესახებ</h1>
+    <p>
+        პროგრამული და ქსელური მომსახურება ადგილზე გამოძახებით
+    </p>
+    <p>
+        ჩვენი მიზანია, შევთავაზოთ მომხმარებელს ხარისხიანი მომსახურება, უნიკალური დიზაინი და თანამედროვე ტექნოლოგიების სრულყოფილი ინტეგრაცია. იქნება ეს ინსტალაცია, პროექტირება თუ შემოქმედებითი იდეების რეალიზება.
+    </p>
+    <p>
+        ჩვენ გთავაზობთ პროგრამულ და ქსელურ მომსახურებას ადგილზე გამოძახებით.
+    </p>
+    <a href="index.html" class="btn">მთავარი გვერდი</a>
+  </div>
+</body>
+
+</html>
